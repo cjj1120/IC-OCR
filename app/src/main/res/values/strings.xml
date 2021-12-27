@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Text Recognition</string>
+    <string name="select_image">Select Image</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="live_test">Live Test</string>
+    <string name="static_test">Static Test</string>
+    <string name="Name">Name</string>
+    <string name="IC_number">IC_number</string>
+</resources>
