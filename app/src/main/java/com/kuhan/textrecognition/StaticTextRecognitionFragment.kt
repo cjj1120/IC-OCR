@@ -27,6 +27,7 @@ import com.google.mlkit.vision.text.latin.TextRecognizerOptions
 import com.kuhan.textrecognition.databinding.FragmentStaticTextRecognitionBinding
 import com.kuhan.textrecognition.utils.*
 import java.util.*
+import kotlin.math.log
 
 class StaticTextRecognitionFragment : Fragment() {
 
@@ -128,8 +129,10 @@ class StaticTextRecognitionFragment : Fragment() {
     }
 
     private fun saveOutput(text: Text) {
-        Log.d("MY-TAG", text.toString())
+
         val file = MLKitUtils().getTextFile(text)
+        Log.e("FINAL", file)
+
         val builder = NotificationCompat.Builder(App.context, "0000")
             .setSmallIcon(R.drawable.ic_done)
             .setPriority(NotificationCompat.PRIORITY_HIGH)

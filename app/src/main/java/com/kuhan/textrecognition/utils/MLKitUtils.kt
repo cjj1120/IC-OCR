@@ -34,7 +34,7 @@ class MLKitUtils {
         return Text(textBlocks, text.text)
     }
 
-    fun getTextFile(text: MLKitText): File? {
+    fun getTextFile(text: MLKitText): String {
         return try {
             val parsedText = MLKitUtils().getTextBlock(text)
             //MY TODO: Extract relevant info, and print out !!
@@ -49,6 +49,7 @@ class MLKitUtils {
             var icBoundingBoxNum = 0;
 
             Log.e("test",  parsedText.textBlocks.size.toString())
+
             for (i in 1..6) {
                 extractedText = parsedText.textBlocks.get(i).string
 //                Log.e("test", i.toString())
@@ -73,14 +74,19 @@ class MLKitUtils {
 
             Log.e("NAME-FINAL-TAG", parsedText.textBlocks.get(nameBoundingBoxNum).string)
 
+            val parsedName = parsedText.textBlocks.get(nameBoundingBoxNum).string;
+            val parsedIC = parsedText.textBlocks.get(icBoundingBoxNum).string;
 
-
-            val file = File.createTempFile("MLKitTextOutput", ".json", App.context.cacheDir)
-            val json = GsonBuilder().setPrettyPrinting().create().toJson(parsedText)
-            file.writeText(json)
+            val file = parsedIC + parsedName
+            //File.createTempFile("MLKitTextOutput", ".json", App.context.cacheDir)
+//
+//            val json = GsonBuilder().setPrettyPrinting().create().toJson(parsedText)
+//            file.writeText(json)
             file
+
+
         } catch (ex: Throwable) {
-            null
+            return "error"
         }
     }
 
