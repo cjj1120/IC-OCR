@@ -13,6 +13,7 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.TextView
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import androidx.core.app.NotificationCompat
@@ -129,9 +130,15 @@ class StaticTextRecognitionFragment : Fragment() {
     }
 
     private fun saveOutput(text: Text) {
+        val textViewOCR: TextView = binding.textViewOCR
 
-        val file = MLKitUtils().getTextFile(text)
-        Log.e("FINAL", file)
+        val OCRtext = MLKitUtils().getTextFile(text)
+        Log.e("FINAL", OCRtext[0])
+        Log.e("FINAL", OCRtext[1])
+        binding.textViewOCR.text = OCRtext[0]
+        binding.textViewOCR2.text = OCRtext[1]
+
+
 
         val builder = NotificationCompat.Builder(App.context, "0000")
             .setSmallIcon(R.drawable.ic_done)

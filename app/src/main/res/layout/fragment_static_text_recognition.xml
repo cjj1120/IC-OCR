@@ -35,6 +35,24 @@
                 app:layout_constraintRight_toRightOf="@id/iv_preview"
                 app:layout_constraintTop_toTopOf="@id/iv_preview" />
 
+            <TextView
+                android:id="@+id/textViewOCR"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="28dp"
+                tools:layout_editor_absoluteY="16dp" />
+
+            <TextView
+                android:id="@+id/textViewOCR2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView"
+                app:layout_constraintTop_toBottomOf="@+id/textViewOCR"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="321dp"
+                tools:layout_editor_absoluteY="16dp" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
