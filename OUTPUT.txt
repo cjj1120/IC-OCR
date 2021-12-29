@@ -1,0 +1,134 @@
+
+12/27 10:52:27: Launching 'app' on HUAWEI RNE-L22.
+App restart successful without requiring a re-install.
+$ adb shell am start -n "com.kuhan.textrecognition/com.kuhan.textrecognition.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+Connected to process 17775 on device 'huawei-rne_l22-8UEDU17B27001126'.
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+I/: power log dlsym ok
+I/zygote64: Late-enabling -Xcheck:jni
+I/zygote64: Reinit property: dalvik.vm.checkjni= false
+D/ActivityThread: ActivityThread,attachApplication
+D/HwFLClassLoader: get used feature list :/feature/used-list failed!
+    USE_FEATURE_LIST had not init! 
+E/MemoryLeakMonitorManager: MemoryLeakMonitor.jar is not exist!
+I/App: onCreate
+E/Minikin: Could not get cmap table size!
+I/HwCust: Constructor found for class android.app.HwCustActivityImpl
+D/HwCust: Create obj success use class android.app.HwCustActivityImpl
+V/HwPolicyFactory: : success to get AllImpl object and return....
+I/HwCust: Constructor found for class android.app.HwCustHwWallpaperManagerImpl
+D/HwCust: Create obj success use class android.app.HwCustHwWallpaperManagerImpl
+V/HwWidgetFactory: : successes to get AllImpl object and return....
+V/ActivityThread: ActivityThread,callActivityOnCreate
+D/HwRTBlurUtils: check blur style for HwPhoneWindow, themeResId : 0x7f0f01d2, context : com.kuhan.textrecognition.MainActivity@2cd519b, Nhwext : 0, get Blur : disable with , null
+D/ActivityThread: add activity client record, r= ActivityRecord{78f5872 token=android.os.BinderProxy@87b7bd9 {com.kuhan.textrecognition/com.kuhan.textrecognition.MainActivity}} token= android.os.BinderProxy@87b7bd9
+I/HwSecImmHelper: mSecurityInputMethodService is null
+D/OpenGLRenderer:   HWUI Binary is  enabled
+D/OpenGLRenderer: HWUI GL Pipeline
+I/PressGestureDetector: HiTouch restricted: AboardArea.
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 2
+D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+W/InputMethodManager: startInputReason = 1
+W/InputMethodManager: startInputReason = 5
+I/hwaps: JNI_OnLoad
+W/Settings: mValues not put! needsGenerationTracker: true currentGeneration: -1 name: enable_navbar value: 1
+V/AudioManager: playSoundEffect   effectType: 0
+I/zygote64: Do partial code cache collection, code=30KB, data=28KB
+    After code cache collection, code=30KB, data=28KB
+    Increasing code cache capacity to 128KB
+D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+    CubicBezierInterpolator  mControlPoint1x = 0.23, mControlPoint1y = 0.06, mControlPoint2x = 0.09, mControlPoint2y = 0.97
+D/CubicBezierInterpolator: CubicBezierInterpolator  mControlPoint1x = 0.6, mControlPoint1y = 0.9, mControlPoint2x = 0.8, mControlPoint2y = 1.0
+W/Utils: Utils_isSuperResolutionSupport [load libai_client.so failed]
+I/zygote64: Do partial code cache collection, code=61KB, data=42KB
+I/zygote64: After code cache collection, code=61KB, data=42KB
+    Increasing code cache capacity to 256KB
+D/HwGalleryCacheManagerImpl: mIsEffect:false
+D/HwRTBlurUtils: check blur style for HwToast-Toast, themeResId : 0x0103013f, context : com.kuhan.textrecognition.App@3af6793, Nhwext : 6, get Blur : disable with , android.graphics.drawable.NinePatchDrawable@1f013d0
+D/OpenGLRenderer:   HWUI Binary is  enabled
+W/ViewRootImpl[Toast]: EGLdebug relayoutWindow Surface isSurface(name=null)  (appName =com.kuhan.textrecognition) ( mSurfaceControllerIsValid =false) (mNativeObject  =0)/@0x55395eb,viewVisibility is0
+W/ViewRootImpl[Toast]: EGLdebug relayoutWindow Surface isSurface(name=null)  (appName =com.kuhan.textrecognition) ( mSurfaceControllerIsValid =true) (mNativeObject  =7c063fc000)/@0x55395eb,relayoutResult is7
+W/ViewRootImpl[Toast]: EGLdebug Surface isSurface(name=null)  (appName =com.kuhan.textrecognition) ( mSurfaceControllerIsValid =true) (mNativeObject  =7c063fc000)/@0x55395eb
+D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+D/OpenGLRenderer:   HWUI Binary is  enabled
+V/AudioManager: playSoundEffect   effectType: 0
+I/zygote64: Do full code cache collection, code=124KB, data=102KB
+I/zygote64: After code cache collection, code=119KB, data=64KB
+W/libEGL: EGLNativeWindowType 0x7c063fc010 disconnect failed
+V/AudioManager: playSoundEffect   effectType: 0
+I/zygote64: Do partial code cache collection, code=120KB, data=78KB
+I/zygote64: After code cache collection, code=120KB, data=78KB
+    Increasing code cache capacity to 512KB
+W/libEGL: EGLNativeWindowType 0x7c24bb7010 disconnect failed
+V/ActivityThread: Handle window ActivityRecord{78f5872 token=android.os.BinderProxy@87b7bd9 {com.kuhan.textrecognition/com.kuhan.textrecognition.MainActivity}} visibility: true
+D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+V/ActivityThread: Handle window ActivityRecord{78f5872 token=android.os.BinderProxy@87b7bd9 {com.kuhan.textrecognition/com.kuhan.textrecognition.MainActivity}} visibility: false
+W/libEGL: EGLNativeWindowType 0x7c24bb7010 disconnect failed
+D/TransportRuntime.JobInfoScheduler: Scheduling upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) with jobId=1004087167 in 86400000ms(Backend next call timestamp 0). Attempt 1
+W/DynamiteModule: Local module descriptor class for com.google.mlkit.dynamite.text.latin not found.
+W/zygote64: Skipping duplicate class check due to unrecognized classloader
+I/Choreographer: Skipped 58 frames!  The application may be doing too much work on its main thread.
+I/DynamiteModule: Considering local module com.google.android.gms.vision.ocr:0 and remote module com.google.android.gms.vision.ocr:1
+I/DynamiteModule: Selected remote version of com.google.android.gms.vision.ocr, version >= 1
+V/DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+I/HwCust: Constructor found for class android.net.HwCustConnectivityManagerImpl
+D/HwCust: Create obj success use class android.net.HwCustConnectivityManagerImpl
+D/TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+W/ResourceType: ResTable_typeSpec entry count inconsistent: given 75, previously 77
+D/TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+D/mali_winsys: EGLint new_window_surface(egl_winsys_display *, void *, EGLSurface, EGLConfig, egl_winsys_surface **, egl_color_buffer_format *, EGLBoolean) returns 0x3000
+D/TransportRuntime.SQLiteEventStore: Storing event with priority=DEFAULT, name=FIREBASE_ML_SDK for destination cct
+D/TransportRuntime.JobInfoScheduler: Scheduling upload for context TransportContext(cct, DEFAULT, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) with jobId=999106430 in 30000ms(Backend next call timestamp 1640510843582). Attempt 1
+W/zygote64: Skipping duplicate class check due to unrecognized classloader
+W/InputMethodManager: startInputReason = 1
+I/native: I1227 10:52:59.392568   18229 start_ocr_856638336_langid.cc:35] StartOcr with label: latin_script_gmvapi_android
+I/native: I1227 10:52:59.394744   18229 jni_helper.cc:122] Loading model config /data/user/0/com.kuhan.textrecognition/cache/vision/ocr/data/models/semanticlift_rpn_lstm_engine_tfmini.bincfg
+I/native: I1227 10:52:59.403484   18229 common_util.h:35] Resizing Thread Pool: ocr_det_0 to 4
+I/native: I1227 10:52:59.406301   18229 tfmini_model_interface.cc:127] Loaded weights from /data/user/0/com.kuhan.textrecognition/cache/vision/ocr/data/models/tfmini_rpn_detector_space_to_depth_gray_quantized_v2_model.data
+    I1227 10:52:59.406556   18229 timer.cc:71] PhotoOcrEngine::Init (detector): 9.93906 ms (elapsed)
+I/native: I1227 10:52:59.409357   18229 assist_recognizer.cc:96] Initializing nugget matcher with /data/user/0/com.kuhan.textrecognition/cache/vision/ocr/data/models/nugget_stats_1.0.dat
+I/native: I1227 10:52:59.410803   18229 timer.cc:71] PhotoOcrEngine::Init (assist recognizer): 4.14011 ms (elapsed)
+I/native: I1227 10:52:59.426702   18229 timer.cc:71] LanguageIdMutator: 7.82083 ms (elapsed)
+I/native: I1227 10:52:59.427057   18229 timer.cc:71] BeamSearch::Init (mutator): 8.19688 ms (elapsed)
+    I1227 10:52:59.427776   18229 common_util.h:35] Resizing Thread Pool: ocr_segm to 4
+I/native: I1227 10:52:59.436033   18229 tfmini_model_interface.cc:105] Loaded fp16 weights from /data/user/0/com.kuhan.textrecognition/cache/vision/ocr/data/models/tfmini_latin_conv_model.data_fp16
+I/native: I1227 10:52:59.449313   18229 tfmini_model_interface.cc:105] Loaded fp16 weights from /data/user/0/com.kuhan.textrecognition/cache/vision/ocr/data/models/tfmini_latin_lstm_model.data_fp16
+    I1227 10:52:59.449811   18229 timer.cc:71] PhotoOcrEngine::Init (recognizer): 38.6906 ms (elapsed)
+    I1227 10:52:59.449903   18229 timer.cc:71] Init: 53.3094 ms (elapsed)
+    I1227 10:52:59.449940   18229 start_ocr_856638336_langid.cc:44] StartOcr success
+I/zygote64: Do full code cache collection, code=251KB, data=183KB
+I/zygote64: After code cache collection, code=234KB, data=135KB
+I/zygote64: Do partial code cache collection, code=235KB, data=140KB
+I/zygote64: After code cache collection, code=235KB, data=140KB
+    Increasing code cache capacity to 1024KB
+D/TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+D/TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+D/TransportRuntime.SQLiteEventStore: Storing event with priority=VERY_LOW, name=FIREBASE_ML_SDK for destination cct
+D/TransportRuntime.JobInfoScheduler: Upload for context TransportContext(cct, VERY_LOW, MSRodHRwczovL2ZpcmViYXNlbG9nZ2luZy5nb29nbGVhcGlzLmNvbS92MGNjL2xvZy9iYXRjaD9mb3JtYXQ9anNvbl9wcm90bzNc) is already scheduled. Returning...
+V/AudioManager: playSoundEffect   effectType: 0
+D/TAGGGGGGGGGGGGGGGGGGGGG: com.google.mlkit.vision.text.Text@ef54050
+E/IC-TAG: 981120-05-5235
+E/NAME-TAG: CHAN JIONG JIET
+E/IC: [KAD, PENGENALAN
+    MALS, MyKad
+    981120-05-5235
+    BE
+    CHAN, JIONG, JIET
+    AiAAN
+    AN, JATI, SD
+    SRI, DAMANSARA
+    $2200, KUALA, LUMPUR
+    w.PERSEKUTUAN(KL)
+    WARGANEGARA
+    LELAKI]
+E/TAG5: JIET
+    AiAAN
+    AN
+E/NotificationManager: notifyAsUser: tag=null, id=0, user=UserHandle{0}
+D/TransportRuntime.CctTransportBackend: Making request to: https://firebaselogging.googleapis.com/v0cc/log/batch?format=json_proto3
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+I/TransportRuntime.CctTransportBackend: Status Code: 200
+    Content-Type: application/json; charset=UTF-8
+    Content-Encoding: gzip
